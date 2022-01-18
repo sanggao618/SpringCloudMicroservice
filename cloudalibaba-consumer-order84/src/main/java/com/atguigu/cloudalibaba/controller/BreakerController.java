@@ -61,7 +61,7 @@ public class BreakerController {
         return new CommonResult<>(445,"blockHandler-sentinel限流,blockException内容:"+blockException.getMessage(),payment);
     }
 
-    @GetMapping(value = "/consumer/openfeign/{id}")
+    @GetMapping(value = "/consumer/paymentSQL/{id}")
     public CommonResult<Payment> paymentSQL(@PathVariable("id") Long id) {
 
         if(id == 4) {
