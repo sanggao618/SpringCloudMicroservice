@@ -1,5 +1,6 @@
-package com.atguigu.springcloud.service;
+package com.atguigu.springcloud.service.impl;
 
+import com.atguigu.springcloud.service.PaymentHystrixService;
 import org.springframework.stereotype.Component;
 
 /**
@@ -8,7 +9,7 @@ import org.springframework.stereotype.Component;
  */
 
 @Component //注册服务降级类
-public class PaymentFallbackService implements PaymentHystrixService{
+public class PaymentFallbackService implements PaymentHystrixService {
 
     @Override
     public String paymentInfo_OK(Integer id) {
