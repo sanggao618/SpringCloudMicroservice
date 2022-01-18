@@ -1,0 +1,6 @@
+D:\IdeaCodes\SpringCloudMicroservice\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\config\ApplicationContextConfig.java
+D:\IdeaCodes\SpringCloudMicroservice\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\OrderMain80.java
+D:\IdeaCodes\SpringCloudMicroservice\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\lb\MyLB.java
+D:\IdeaCodes\SpringCloudMicroservice\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\controller\OrderController.java
+D:\IdeaCodes\SpringCloudMicroservice\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\lb\LoadBalancer.java
+D:\IdeaCodes\SpringCloudMicroservice\cloud-consumer-order80\src\main\java\com\atguigu\rule\MyRule.java
