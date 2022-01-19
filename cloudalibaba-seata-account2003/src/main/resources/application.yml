@@ -12,10 +12,10 @@ spring:
       discovery:
         server-addr: localhost:8848
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/seata_account?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&verifyServerCertificate=false
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.160.22:3306/seata_account
     username: root
-    password:
+    password: 123456
 
 feign:
   hystrix:
