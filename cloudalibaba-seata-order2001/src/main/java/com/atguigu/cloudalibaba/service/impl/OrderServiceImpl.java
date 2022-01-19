@@ -51,7 +51,7 @@ public class OrderServiceImpl implements OrderService
         accountService.decrease(order.getUserId(),order.getMoney());
         log.info("------->order-service中扣减余额结束");
 
-        //修改订单状态为已完成
+        //修改订单状态为已完成，从0变为1，1代表已完成
         log.info("------->order-service中修改订单状态开始");
         orderDao.update(order.getUserId(),0);
         log.info("------->order-service中修改订单状态结束");

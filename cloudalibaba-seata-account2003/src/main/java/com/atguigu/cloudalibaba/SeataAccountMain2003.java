@@ -11,7 +11,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * @create 2022-01-18 17:43
  */
 
-@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
+@SpringBootApplication(exclude = DataSourceAutoConfiguration.class) //取消数据源的自动装配，改用自定义数据源
 @EnableDiscoveryClient
 @EnableFeignClients
 public class SeataAccountMain2003 {
